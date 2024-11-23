@@ -1,0 +1,111 @@
+.menu {
+    height: 10vh;
+    background-color: black;
+    text-align: center;
+}
+
+.main-container {
+    height: 90vh;
+    background: linear-gradient(45deg, #f38ffa, #539eee);
+    overflow: scroll;
+}
+
+.menu-item {
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0 30px;
+    line-height: 10vh;
+    transition: 0.5s;
+}
+
+.menu-item:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 10px pink;
+}
+
+.games-item {
+    width: 400px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    list-style: none;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px black;
+    filter: brightness(0.4);
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.games-item:hover {
+    filter: none;
+    opacity: 1;
+    scale: 1.02;
+}
+
+.game1 {
+    background-image: url("../img/CS-GO.PNG");
+}
+.game2 {
+    background-image: url("../img/MCraft.PNG");
+}
+.game3 {
+    background-image: url("../img/AmongUs.PNG");
+}
+.game4 {
+    background-image: url("../img/Fortnite.PNG");
+}
+
+.game5{
+    background-image: url("../img/valorant.jpg");
+}
+.game6{
+    background-image: url("../img/warface.jpg");
+}
+.game7{
+    background-image: url("../img/rb6s.jpg");
+}
+.game8{
+    background-image: url("../img/nfsmw.jpg");
+}
+.game9{
+    background-image: url("../img/fh5-1.png");
+}
+.game10{
+    background-image: url("../img/beamng.jpg");
+}
+.game11{
+    background-image: url("../img/thecrew2.jpg");
+}
+.game12{
+    background-image: url("../img/godofwar.jpg");
+}
+.game13{
+    background-image: url("../img/prison.jpg");
+}
+.game14{
+    background-image: url("../img/rdr2.png");
+}
+
+
+.main-games {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.games-item a{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: coral;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 450px;
+}
